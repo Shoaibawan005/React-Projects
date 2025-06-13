@@ -8,7 +8,6 @@ import "./style.css";
 
 const App = () => {
   return (
-    // test change
     <div className="todo-container">
       <CounterComponent /> 
       <Header title = "Todoie App" />
