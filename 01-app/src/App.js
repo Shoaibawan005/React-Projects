@@ -12,8 +12,8 @@ function App() {
   }
 
   useEffect(() => {
-    console.log("I'm Mounting")
-  }, [])
+    console.log("I'm Mounting from APP")
+  }, [isVisible])
   return (
     <div className="App">
       {isVisible ?  <MyComponent/> : <h1>UnToggled</h1>}
