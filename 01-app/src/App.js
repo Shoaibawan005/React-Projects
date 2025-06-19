@@ -17,7 +17,7 @@ function App() {
   return (
     <div className="App">
       {isVisible ?  <MyComponent/> : <h1>UnToggled</h1>}
-      <button onClick={visibility}>Toggle</button>
+      <button className='button' onClick={visibility}>Toggle</button>
     </div>
   );
 }
